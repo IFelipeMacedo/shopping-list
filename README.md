@@ -27,24 +27,6 @@ Works with dynamically created items.
 
 Responsive and styled layout.
 
-## 📦 Project Structure
-
-```text
-shopping-list/
-│
-├── index.html           # Main page
-├── css/
-│   └── styles.css       # Application styles
-├── js/
-│   ├── index.js         # Main script
-│   ├── createListElement.js
-│   ├── createDate.js
-│   ├── checkbox.js
-│   └── emptyList.js
-├── assets/
-│   └── bag.png
-└── README.md
-
 
 ## 🚀 How to Use
 
