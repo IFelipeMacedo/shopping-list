@@ -49,7 +49,7 @@ Check the checkbox to mark the item as completed.
 
 View the date and time each item was added.
 
-##📸 Preview
+## 📸 Preview
 
 ![Preview of the app](./assets/preview.png)
 
