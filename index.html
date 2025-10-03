@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <main>
+    <img src="./assets/bag.png" alt="shopping bag" width="64" height="64" />
+    <form id="shopping-form">
+      <input class="form__input" id="input-item" type="text" placeholder="Type the item to add to list" />
+      <button class="form__button" type="submit">Save item</button>
+    </form>
+
+    <div class="shopping-list__container">
+      <h2>Shopping list</h2>
+      <hr />
+      <ul id="shopping-list"></ul>
+      <p id="empty-message">Your List is empty!</p>
+    </div>
+  </main>
+  <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>

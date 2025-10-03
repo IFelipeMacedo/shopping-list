@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-primary: #c1464a;
+    --color-secondary: #a91c23;
+    --neutral: #F9F9F9;
+    --black: #131730;
+    --font-title: "Krona One", sans-serif;
+    --font-text: 'Numans', sans-serif;
+    --blue-gradient: #0B172E;  /* fallback for old browsers */
+}
+
+body {
+    background: var(--blue-gradient);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main {
+    background-color: var(--neutral);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 90%;
+    max-width: 440px;
+    padding: 32px;
+    align-items: center;
+    border-radius: 16px;
+}
+
+h2 {
+    font-family: var(--font-title);
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+hr {
+    border: none;
+    border-bottom: 3px dotted var(--color-primary);
+    margin-bottom: 16px;
+}
+
+p {
+    font-family: var(--font-text);
+    font-size: 16px;
+}
+
+/* Form */
+form {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.form__input {
+    flex: 1;
+    padding: 12px 16px;
+    border-radius: 24px;
+    border: 1px solid var(--black);
+    font-family: var(--font-text);
+}
+
+.form__input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+.form__button {
+    padding: 12px 16px;
+    border-radius: 24px;
+    background-color: var(--color-primary);
+    color: var(--neutral);
+    font-family: var(--font-text);
+    border: none;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background-color: var(--color-secondary);
+}
+
+.form__button:focus {
+    outline: 2px solid var(--black);
+}
+
+/* Shopping List */
+
+.shopping-list__container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.shopping-list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checked-text {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.shopping-list__date {
+    font-size: 12px;
+    line-height: 16px;
+    color: #555;
+}
+
+.shopping-list__remove {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--color-primary);
+    font-weight: bold;
+}
