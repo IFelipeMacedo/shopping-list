@@ -13,6 +13,8 @@ It allows you to dynamically add items, mark them as completed, and view the dat
 
 ## 🛠 Features
 
+Acess the webpage at https://shopping-list-three-omega.vercel.app/
+
 Add items to the list.
 
 Strike through items when the checkbox is checked.
