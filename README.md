@@ -27,23 +27,28 @@ Works with dynamically created items.
 
 Responsive and styled layout.
 
-## 📦 Estrutura do Projeto
+## 📦 Project Structure
 
+```text
 shopping-list/
 │
 ├── index.html           # Main page
-├── styles.css           # Application styles
-├── index.js             # Main script
-├── scripts/
-│   ├── createListElement.js   # Dynamically create list items
-│   ├── createDate.js          # Date and time for each item
-│   ├── checkbox.js            # Strike through items with checkbox
-│   └── emptyList.js           # Display message when list is empty
-├── img/
-│   └── bag.png          # Example image
+├── css/
+│   └── styles.css       # Application styles
+├── js/
+│   ├── index.js         # Main script
+│   ├── createListElement.js
+│   ├── createDate.js
+│   ├── checkbox.js
+│   └── emptyList.js
+├── assets/
+│   └── bag.png
 └── README.md
 
+
 ## 🚀 How to Use
+
+Access the webpage at https://shopping-list-three-omega.vercel.app/
 
 Type the item name and click Save item or press Enter.
 
